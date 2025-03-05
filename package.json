@@ -9,7 +9,7 @@
     "make": "electron-forge make",
     "publish": "electron-forge publish",
     "clean": "rmdir /s node_modules && rm package-lock.json",
-    "clean-build": "rmdir /s out && rmdir /s node_modules && rm package-lock.json",
+    "clean-build": "rmdir /s out",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matias Villegas Varas",
