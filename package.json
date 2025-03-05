@@ -2,13 +2,14 @@
   "name": "app-desktop-myl",
   "version": "1.0.0",
   "description": "aplicación de escritorio para myl",
-  "main": "src/main/main.ts",
+  "main": "src/main/main.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "clean": "rmdir /s out",
+    "clean": "rmdir /s node_modules && rm package-lock.json",
+    "clean-build": "rmdir /s out && rmdir /s node_modules && rm package-lock.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matias Villegas Varas",
@@ -25,7 +26,6 @@
     "electron": "^35.0.0"
   },
   "dependencies": {
-    "better-sqlite3": "^11.8.1",
     "electron-squirrel-startup": "^1.0.1"
   }
 }
