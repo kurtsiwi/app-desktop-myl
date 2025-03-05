@@ -2,7 +2,7 @@
   "name": "app-desktop-myl",
   "version": "1.0.0",
   "description": "aplicación de escritorio para myl",
-  "main": "main.js",
+  "main": "src/main/main.ts",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
