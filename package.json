@@ -25,6 +25,7 @@
     "electron": "^35.0.0"
   },
   "dependencies": {
+    "better-sqlite3": "^11.8.1",
     "electron-squirrel-startup": "^1.0.1"
   }
 }
